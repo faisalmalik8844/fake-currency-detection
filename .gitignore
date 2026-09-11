@@ -6,7 +6,7 @@ data/processed/*
 
 # Trained models (large binary files)
 models/*.h5
-models/*.keras
+!models/mobilenetv2_3class_currency.keras
 !models/.gitkeep
 
 # Python
