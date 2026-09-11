@@ -1,0 +1,14 @@
+{
+    "python-envs.defaultEnvManager": "ms-python.python:system",
+    "todo-tree.general.scanMode": "workspace only",
+    "todo-tree.filtering.includeGlobs": [
+        "**/*.py",
+        "**/*.md",
+        "**/*.ipynb"
+    ],
+    "todo-tree.filtering.excludeGlobs": [
+        "**/venv/**",
+        "**/data/**",
+        "**/models/**"
+    ]
+}
